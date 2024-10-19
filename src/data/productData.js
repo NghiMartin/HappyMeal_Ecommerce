@@ -5,7 +5,8 @@ const productData = [
     "price": 39000,
     "description": "Trứng gà luộc, rau củ quả(có thể thay đổi theo mùa), sốt ăn kèm.",
     "category": "SALAD",
-    "image": "https://png.pngtree.com/png-vector/20240811/ourlarge/pngtree-wholesome-fresh-salad-with-mixed-veggies-png-image_13451249.png",
+    "image": '/assets/1.png',
+
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -17,7 +18,7 @@ const productData = [
     "price": 49000,
     "description": "Ức gà nướng mật ong, rau củ quả(có thể thay đổi theo mùa), sốt ăn kèm.",
     "category": "SALAD",
-    "image": "https://png.pngtree.com/png-clipart/20190826/ourlarge/pngtree-chicken-salad-png-image_1701085.jpg",
+    "image": '/assets/2.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -29,7 +30,7 @@ const productData = [
     "price": 59000,
     "description": "Bò sốt tiêu đen, rau củ quả(có thể thay đổi theo mùa), sốt ăn kèm.",
     "category": "SALAD",
-    "image": "https://e7.pngegg.com/pngimages/28/896/png-clipart-roast-beef-pizza-coleslaw-salad-roasting-thai-chilli-food-beef.png",
+    "image": '/assets/3.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -41,7 +42,7 @@ const productData = [
     "price": 59000,
     "description": "Bò sốt tiêu đen, rau củ quả, cơm gạo lứt, sốt ăn kèm.",
     "category": "CƠM GẠO LỨT",
-    "image": "https://e7.pngegg.com/pngimages/598/606/png-clipart-teppanyaki-mole-sauce-american-chinese-cuisine-iron-black-pepper-bowl-of-beef-food-black-hair.png",
+    "image": '/assets/4.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -53,7 +54,7 @@ const productData = [
     "price": 49000,
     "description": "Ức gà nướng sốt teriyaki, rau củ quả, cơm gạo lứt, sốt ăn kèm.",
     "category": "CƠM GẠO LỨT",
-    "image": "https://png.pngtree.com/png-clipart/20201209/original/pngtree-teriyaki-chicken-rice-png-image_5648163.jpg",
+    "image": '/assets/5.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -65,7 +66,7 @@ const productData = [
     "price": 69000,
     "description": "Cá hồi áp chảo sốt chanh dây, rau củ quả, cơm gạo lứt, sốt ăn kèm.",
     "category": "CƠM GẠO LỨT",
-    "image": "https://www.sugartown.vn/upload/sanpham/10cahoisotchanhdanh-17005561682.png",
+    "image": '/assets/6.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -77,7 +78,7 @@ const productData = [
     "price": 59000,
     "description": "Bò sốt tiêu đen, rau củ quả, bún gạo lứt, sốt ăn kèm.",
     "category": "BÚN GẠO LỨT",
-    "image": "https://png.pngtree.com/png-vector/20240811/ourlarge/pngtree-wholesome-fresh-salad-with-mixed-veggies-png-image_13451249.png",
+    "image": '/assets/7.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -89,7 +90,7 @@ const productData = [
     "price": 49000,
     "description": "Ức gà nướng mật ong, rau củ quả, bún gạo lứt, sốt ăn kèm.",
     "category": "BÚN GẠO LỨT",
-    "image": "https://e7.pngegg.com/pngimages/993/674/png-clipart-teppanyaki-stew-black-pepper-meat-iron-sauce-black-pepper-beef-food-black-hair-thumbnail.png",
+    "image": '/assets/8.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -101,7 +102,7 @@ const productData = [
     "price": 69000,
     "description": "Cá hồi áp chảo sốt chanh dây, rau củ quả, bún gạo lứt, sốt ăn kèm.",
     "category": "BÚN GẠO LỨT",
-    "image": "https://png.pngtree.com/png-vector/20240811/ourlarge/pngtree-wholesome-fresh-salad-with-mixed-veggies-png-image_13451249.png",
+    "image": '/assets/9.png',
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -110,3 +111,4 @@ const productData = [
 ]
 
 export { productData }
+

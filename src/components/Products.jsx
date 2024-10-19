@@ -4,7 +4,6 @@ import { addCart } from "../redux/action";
 
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import { productData } from "../data/productData";
@@ -77,25 +76,25 @@ const Products = () => {
       <>
         <div className="buttons text-center py-5">
           <button
-            className="btn btn-outline-dark btn-sm m-2"
+            className="btn btn-outline-success btn-sm m-2"
             onClick={() => setFilter(data)}
           >
-            All
+          Tất cả
           </button>
           <button
-            className="btn btn-outline-dark btn-sm m-2"
+            className="btn btn-outline-success btn-sm m-2"
             onClick={() => filterProduct("SALAD")}
           >
             SALAD
           </button>
           <button
-            className="btn btn-outline-dark btn-sm m-2"
+            className="btn btn-outline-success btn-sm m-2"
             onClick={() => filterProduct("CƠM GẠO LỨT")}
           >
         CƠM GẠO LỨT
           </button>
           <button
-            className="btn btn-outline-dark btn-sm m-2"
+            className="btn btn-outline-success btn-sm m-2"
             onClick={() => filterProduct("BÚN GẠO LỨT")}
           >
        BÚN GẠO LỨT
@@ -109,12 +108,13 @@ const Products = () => {
               key={product.id}
               className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4"
             >
-              <div className="card text-center h-100" key={product.id}>
+              <div className="card text-center h-100 " key={product.id}>
                 <img
-                  className="card-img-top p-3"
+                  className="card-img-top p-2  img-fluid"
                   src={product.image}
+
                   alt="Card"
-                  height={300}
+                  // height={400}
                 />
                 <div className="card-body">
                   <h5 className="card-title">
@@ -125,7 +125,7 @@ const Products = () => {
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">{product.price} VNĐ</li>
+                  <li className="list-group-item lead">{product.price.toLocaleString('de-DE')} đ</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
