@@ -8,7 +8,7 @@ const AboutPage = () => {
         <h1 className="text-center">Về chúng tôi</h1>
         <hr />
         <p className="lead text-center">
-          ...
+        “Happy Meal” hướng tới nâng cao chất lượng cuộc sống bằng những bữa ăn dinh dưỡng, tự nhiên và không hóa chất. Chúng tôi muốn xây dựng cộng đồng sống khỏe mạnh, nơi thực phẩm sạch là tiêu chuẩn hàng đầu, mang lại sự an tâm và hạnh phúc cho khách hàng.
         </p>
 
         <h2 className="text-center py-4">Sản phẩm của chúng tôi</h2>
