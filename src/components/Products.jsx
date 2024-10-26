@@ -104,34 +104,34 @@ const Products = () => {
         {filter.map((product) => {
           return (
             <div
-              id={product.id}
-              key={product.id}
+              id={product?.id}
+              key={product?.id}
               className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4"
             >
-              <div className="card text-center h-100 " key={product.id}>
+              <div className="card text-center h-100 " key={product?.id}>
                 <img
                   className="card-img-top p-2  img-fluid"
-                  src={product.image}
+                  src={product?.image}
 
                   alt="Card"
                   // height={400}
                 />
                 <div className="card-body">
                   <h5 className="card-title">
-                    {product.title}
+                    {product?.title}
                   </h5>
                   <p className="card-text">
-                    {product.description}
+                    {product?.description}
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">{product.price.toLocaleString('de-DE')} đ</li>
+                  <li className="list-group-item lead">{product?.price?.toLocaleString('de-DE')} đ</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
                   <Link
-                    to={"/product/" + product.id}
+                    to={"/product/" + product?.id}
                     className="btn btn-success m-1"
                   >
                    Mua ngay
